@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!--  -->
+    <link rel="stylesheet" href="styles.css">
+    <!--  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- Tipografia -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Srisakdi:wght@400;700&display=swap" rel="stylesheet">
+<!-- tipografia2 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+
+<!-- tipografia 3 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- favico (loguito de la pestaña) -->
+    <link rel="icon" href="img/perfilprincipal.jpg">
+</head>
+<!-- BARRA DE NAVEGACION -->
+<header>
+  <nav class="navbar navbar-expand-lg bg-info fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">LASHES</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#queSon">Que son?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#carouselExampleSlidesOnly">Fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#titulo1">Nuestas tecnicas</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        tecnicas
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#clasicas">Clásica</a></li>
+                        <li><a class="dropdown-item" href="#mixta">Mixta o volumen medio</a></li>
+                        <li><a class="dropdown-item" href="#volumen">Volumen extremo</a></li>
+                        <li><a class="dropdown-item" href="#titulo2">Otras tecnicas</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+            
+        </div>
+        <section class="social-links">
+          <!-- Enlace para ir al Instagram -->
+          <a href="https://www.instagram.com/arelii_manuel/" aria-label="Instagram">
+              <img src="img/instagram.png" alt="Instagram" width="20" height="20">
+          </a>
+          <!-- Enlace para enviar un correo electrónico con imagen -->
+          <a href="mailto:arelii.manuel.7@gmail.com" aria-label="Enviar correo">
+              <img src="img/correo.png" alt="Enviar correo" width="30" height="30">
+          </a>
+          
+      
+    </div>
+</nav>
+
+<!--  -->
+<!-- section -->
+<section id="hero">
+  <!-- titulo principal con br es salto de linea-->
+  <h1>A MAL TIEMPO , CEJAS <br>Y PESTAÑAS PERFECTAS</h1>
+  <!-- agragar boton bajo el titulo -->
+  <button onclick="location.href='#cita'" style="background-color: #c789fa; color: white; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;">AGENDA YA!</button>
+
+</section>
+
+
+</header>
+<!--  -->
+<body>
+  <div>
+    <br>
+    <br>
+  </div>
+  <div class="frase" id="queSon">
+  <img src="https://i.pinimg.com/736x/12/1a/8f/121a8f01645cda78a8b0ede96a710327.jpg" class="rounded mx-auto d-block custom-image" alt="...">
+</div>
+  <div class="info">
+    <h1 >Extensiones de Pestañas</h1>
+
+    <h5>
+      Las extensiones son de un material sintético hipoalergénico que tiene la forma y grosor de una pestaña natural.<br>
+       La técnica consiste en aplicar extensiones una por una a tus pestañas. En una aplicación típica se colocan entre 100-120 extensiones por ojo.<br>
+      El largo de las extensiones varía dependiendo del efecto que desees lograr y del tamaño de tu pestaña natural. <br>¡El diseño es completamente personalizado!</h5>
+    </div>
+   <!--  -->
+  
+    <!-- Carucel  -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner" id="fotos">
+          <div class="carousel-item active">
+            <img src="img/pestañas1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/pestañas2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/pestañas3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      <br>
+   <!-- Textos -->
+   <div class="section-container" id="tecnicas">
+    <div class="title-container">
+      <h1 id="titulo1">Nuestras Técnicas</h1>
+    </div>
+    <div class="columns-container">
+      <div class="column">
+        <h2 id="clasicas">Clásica</h2>
+        <p>Se aplican individualmente a cada una de las pestañas, creando un efecto muy natural de pestañas más largas y rizadas..</p>
+      </div>
+      <div class="column">
+        <h2 id="mixta">Mixta o volumen medio</h2>
+        <p>Se combina la técnica de una por una y la técnica de volumen en la que se aplican extensiones individuales en algunas pestañas y en otras grupos de 3-5 extensiones para crear un efecto más tupido, como maquillado natural. Nuestra técnica favorita!</p>
+      </div>
+      <div class="column">
+        <h2 id="volumen">Volumen extremo</h2>
+        <p>Se aplica a cada una de las pestañas grupos de 5-7 extensiones para crear un efecto dramático, ideal para eventos, para quienes se maquillan con sombra los ojos o utilizan pestañas postizas a diario.</p>
+      </div>
+    </div>
+  </div>
+   <!--  -->
+   <!--imagenes de abajo de los textos   -->
+   <div class="columns-container">
+    <div class="column">
+     <img src="https://lashesandgo.com/wordpress/wp-content/uploads/2023/02/extensiones-pestanas-1D.jpg" alt="pestañas clasicas" style="width: 350px; height: 500px;">
+    </div>
+    <div class="column">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHLVpsFel3NBmiSjkoaaJ4nX0Ahs-QKTvzHff0xdXEog&s" alt="Mixta o volumen medio" style="width: 350px; height: 500px;">
+    </div>
+    <div class="column">
+      <img src="https://eyesylash.co/cdn/shop/articles/4-tips-for-mastering-the-extreme-volume-lashes-eyesy-lash_1000x.png?v=1701839011" alt="Volumen extremo" style="width: 350px; height: 500px;">
+    </div>
+  </div>
+</div>
+<!-- TARJETAS -->
+<br>
+<div><br></div>
+<!--  -->
+<h1 id="titulo2">Otras Técnicas</h1>
+<br>
+<div class="row">
+  <!-- Tarjeta 1 -->
+  <div class="col">
+      <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+              <div class="col-md-4">
+                  <img src="img/2d.jpeg " style="width: 400px; height: 300px;"class="img-fluid rounded-start" alt="..." style="max-width: 200px;">
+              </div>
+              <div class="col-md-8">
+                  <div class="card-body">
+                      <h5 class="card-title" id="tiulo1">PESTAÑAS 2D</h5>
+                      <p class="card-text">Es uno de nuestros diseños estrella. Si las 1D consiguen un efecto rímel, con nuestras 2D conseguirás el afamado EYELINER EFFECT. Las 2D siguen siendo muy naturales, pero te dan un toque de volumen. La diferencia básica con las 1D radica en que con las 2D se colocan dos extensiones por cada pestaña natural en vez de una. Son pestañas ultrafinas que multiplica por dos la magia de tu mirada.is a little bit longer.</p>
+                  
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Tarjeta 2 -->
+  <div class="col">
+      <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+              <div class="col-md-4">
+                  <img src="img/3d.webp" class="img-fluid rounded-start" alt="..." style="max-width: 200px;">
+              </div>
+              <div class="col-md-8">
+                  <div class="card-body">
+                      <h5 class="card-title">PESTAÑAS 3D</h5>
+                      <p class="card-text">Las favoritas de muchos. De hecho, aún nos preguntamos cómo hemos podido vivir tanto tiempo sin ellas. Si quieres algo más de volumen y buscas un efecto algo más marcado que las 2D, el 3D es para ti. Las 3D consiguen dibujar un pequeño sombreado que llamamos EYESHADOW EFFECT.</p>
+                     
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Tarjeta 3 -->
+  <div class="col">
+      <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+              <div class="col-md-4">
+                  <img src="img/5d.webp" class="img-fluid rounded-start" alt="..." style="max-width: 200px;">
+              </div>
+              <div class="col-md-8">
+                  <div class="card-body">
+                      <h5 class="card-title">PESTAÑAS 5D</h5>
+                      <p class="card-text">Si Brigitte Bardot fuera nuestra clienta, estas extensiones son las que escogería sin lugar a dudas.Te aseguramos que con un solo pestañeo tendrás a todo el mundo a tus pies. Con nuestras 5D conseguimos una densidad muy muy intensa. Fabulosa. Totalmente mágica.</p>
+                     
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- termina las tarjetas -->
+
+<!-- imgenes en tarjetas -->
+  <div class="card-group">
+    <div class="card">
+      <img src="img/aplicacion1.jpeg" class="card-img-top" alt="...">
+      
+    </div>
+    <div class="card">
+      <img src="img//aplicacion2.webp" class="card-img-top" alt="...">
+    
+    </div>
+    <div class="card">
+      <img src="img/aplicacion3.jpg" class="card-img-top" alt="...">
+    </div>
+  </div>
+  <!-- contactanos  -->
+  <div class="container">
+    <div class="row">
+        <div class="col-md-3 d-md-flex align-items-center justify-content-start"> <!-- Alineado a la izquierda y centrado verticalmente en dispositivos medianos (md) -->
+            <img src="https://i.pinimg.com/564x/a3/12/1b/a3121b9936d4ae713cfc4fbc8e9694bd.jpg" alt="Imagen" class="img-fluid">
+        </div>
+        <br>
+        <div class="col-md-6"> <!-- Centrado en dispositivos medianos (md) -->
+            <h2 id="cita">Agenda tu cita ya</h2> <!-- Título agregado -->
+            <form action="/enviar.php" method="post">
+                <div class="mb-3">
+                    <label for="inputEmail" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="inputEmail" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="inputName" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputName" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="inputPhone" class="form-label">Teléfono</label>
+                    <input type="tel" class="form-control" id="inputPhone" name="phone">
+                </div>
+                <div class="mb-3">
+                    <label for="inputTechnique" class="form-label">Técnica</label>
+                    <select class="form-select" id="inputTechnique" name="technique">
+                        <option value="Técnica 1">Clasicas</option>
+                        <option value="Técnica 2">Mixta o volumen medio</option>
+                        <option value="Técnica 3">Volumen extremo</option>
+                        <option value="Técnica 3">PESTAÑAS 2D</option>
+                        <option value="Técnica 3">PESTAÑAS 3D</option>
+                        <option value="Técnica 3">PESTAÑAS 5D</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="inputDay" class="form-label">Día</label>
+                    <input type="date" class="form-control" id="inputDay" name="day">
+                </div>
+                <div class="text-center"> <!-- Contenedor para centrar el botón -->
+                  <button type="submit" class="btn btn-primary">Agendar Cita</button>
+              </div>
+            </form>
+        </div>
+        <div class="col-md-3 d-md-flex align-items-center justify-content-end"> <!-- Alineado a la derecha y centrado verticalmente en dispositivos medianos (md) -->
+            <img src="https://i.pinimg.com/564x/45/73/12/45731284859f80e6b1ea968d8efba667.jpg" alt="Imagen" class="img-fluid">
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <br>
+    <!-- footer -->
+    <footer>
+      <section>
+          <!-- Enlace para ir al instagram -->
+          <a href="https://www.instagram.com/arelii_manuel/">
+              <img src="img/instagram.png"  width="40" height="40">
+          </a>
+          <!-- Enlace para enviar un correo electrónico con imagen -->
+          <a href="mailto:arelii.manuel.7@gmail.com" aria-label="Enviar correo">
+              <img src="img/correo.png" alt="Contáctame" width="50" height="50">
+          </a>
+          <!--  -->
+          <a href="https://www.instagram.com/arelii_manuel/" aria-label="Instagram">
+            <img src="img/facebook.png" alt="Instagram" width="50" height="50">
+        </a>
+        <!--  -->
+        <a href="https://www.instagram.com/arelii_manuel/" aria-label="Instagram">
+          <img src="img/telegrama.png" alt="Instagram" width="50" height="50">
+      </a>
+      </section>
+      </section>
+      
+      <p>Luce unas pestañas hermosas </p>
+  </footer>
+  
+</body>
+
+
+</html>

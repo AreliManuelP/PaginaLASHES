@@ -1,0 +1,174 @@
+body {
+  background: linear-gradient(#FFF8E5, rgb(192, 209, 255));
+}
+/*  */
+.social-links {
+  text-align: right;
+  margin: 20px; /* Añadir un margen opcional */
+}
+
+.social-links a {
+  margin-left: 10px; /* Añadir un espacio entre los enlaces */
+}
+
+/*  PORTADA*/
+#hero{
+  /*  */
+  display: flex;
+  /*  */
+  align-items: center;
+  /*  */
+  justify-content: center;
+  /*  */
+  text-align: center;
+  /*  */
+  flex-direction: column;
+  /* altura */
+  height: 90vh;
+  /* fondo de atras */
+  /* url es la imagen--para que se pueda leer el texto  */
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url("img/portada.jpg");
+  /* no repetir la imagen */
+  background-repeat: no-repeat;
+  /* para que ocupe todo el espacio disponible la i,agen */
+  background-size: cover;
+  /* para que se centre siempre la imagen */
+  background-position: center center;
+}
+
+/* cambiar color de letra */
+#hero h1{
+  color: white;
+  font-size: 3.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*hacer el boton mas grande  */
+#hero button{
+  font-size: 1.75em;
+}
+/* termina portada */
+/* 
+ */
+ .custom-image {
+  width: 500px; /* Ajusta el ancho según tus necesidades */
+  height: auto; /* Mantén la relación de aspecto */
+}
+
+ /*  */
+.info{
+  background-color: #dcbafcb4; /* Cambia 'lightblue' por el color que prefieras */
+  
+}
+.frase{
+  background: linear-gradient(#2193b0, #dcbafcb4);
+}
+h1, h5,h2{
+  /* color: rgb(81, 122, 236); */
+  font-family: "Srisakdi", system-ui;
+  font-weight: 400;
+  font-style: normal;
+/* hacer grande la letra */
+  font-size: 50px;
+  /* centar texto */
+  text-align:center;
+  
+}
+#titulo1, #titulo2{ 
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+} 
+p{
+  font-family: "Srisakdi", system-ui;
+}
+
+
+
+.carousel-item img {
+    width: 50%; /* Ajusta el porcentaje según sea necesario */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+  }
+
+  .section-container {
+    background-color: rgba(210, 191, 221, 0.801); /* Color de fondo para la sección completa */
+    padding: 20px; /* Relleno interno del contenedor */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+  }
+  .title-container {
+    text-align: center; /* Centra el título */
+    margin-bottom: 20px; /* Espacio debajo del título */
+  }
+  .columns-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio uniformemente */
+    gap: 20px; /* Espaciado opcional entre columnas */
+  }
+  .column {
+    flex: 1; /* Hace que cada columna tenga el mismo ancho */
+    padding: 10px;
+    border: 1px solid #dddddd; /* Borde para distinguir columnas */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra para un efecto de elevación */
+    background-color: #ffb1cfb7; /* Color de fondo para cada columna */
+    text-align: center; /* Centra el contenido de la columna */
+  }
+
+  /* columnas tarjetas  */
+  .card-title{
+
+      font-family: "Poetsen One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .card-text {
+      font-family: "Poetsen One", sans-serif;
+      font-weight: 10; /* Grosor de la fuente más delgado */
+      font-style: normal;
+      font-size: smaller; /* Tamaño de fuente más pequeño */
+      padding-left: 30px; /* Agregar un relleno a la izquierda */
+  }
+  
+  #cita{
+    color: rgb(19, 17, 17);
+    font-size: 3.5em;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* ************* */
+  /* ************************* */
+  /* FOOTER */
+  /* hasta abajo es lo de correo etc*/
+footer{
+  /* fondo */
+  background-color: #6664e0;
+  /*  */
+  padding: 3rem;
+  /* fuente letra */
+  color:#fff;
+}
+/* links flotando a la derecha */
+/* section dentro de footer */
+footer section{
+  float: right;
+}
+/* aliniar 2023 con link  */
+footer p{
+  /* quitar margen  */
+  margin: 0;
+  font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* cuando pasar el maus por ensima de los links cambia de color  */
+footer a:hover{
+  /*  */
+  color: cornflowerblue;
+}
